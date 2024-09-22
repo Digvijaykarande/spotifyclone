@@ -1,0 +1,38 @@
+.songdetails {
+    position: relative;
+    top:5vh;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#dbdbdb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .songdetails h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .songdetails img {
+    max-width: 310px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .songdetails p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .songdetails audio {
+    margin-top: 15px;
+    width: 100%; /* Ensure audio controls are full width */
+    border-radius: 5px;
+    outline: none; /* Remove outline for a cleaner look */
+  }
+  
