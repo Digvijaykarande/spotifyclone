@@ -6,7 +6,7 @@ import Scalton from "./ScaltonStructure"
 
 const Spotify = () => {
   const clientId = '205992373a3b414a9220bf4c47243d3a'; 
-  const redirectUri = 'http://localhost:5173'; 
+  const redirectUri = 'https://main--spotifyclone-dk.netlify.app/'; 
   const scopes = 'user-read-private user-read-email'; 
 
   const [loading,setloading]=useState(false);
